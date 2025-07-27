@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NAXTEX — Цифровая система будущего</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0a0a0a, #1c1c1c);
+      color: #00ffe0;
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      animation: glow 2s infinite alternate;
+    }
+
+    p {
+      max-width: 600px;
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+
+    .button {
+      margin-top: 40px;
+      padding: 15px 30px;
+      font-size: 1em;
+      background-color: #00ffe0;
+      color: #000;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #00bfa5;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #00ffe0;
+      }
+      to {
+        text-shadow: 0 0 30px #00ffe0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>NAXTEX</h1>
+  <p>Цифровая идентификация. Биржа. Будущее уже рядом.<br>Следите за запуском нашей платформы.</p>
+  <button class="button" onclick="alert('Скоро запуск! Подпишитесь на новости.')">Следить за запуском</button>
+</body>
+</html>
